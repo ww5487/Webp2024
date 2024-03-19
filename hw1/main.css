@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.text-bg-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .p-md-5 {
+        padding: 2rem !important;
+    }
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
